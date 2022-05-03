@@ -6,25 +6,21 @@
 `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
 
 ### Options
-`-d` detached mode
+| Option | Description |
+| ------ | ------------|
+|`-d`|detached mode|
+|`-e` |set environment variables|
+|`-i`|interactive|
+|`--mount`|attach a filesystem mount to the container|
+|`--name`|assign a name to a container|
+|`-p`|port mapping|
+|`-t`|psuedo terminal (tty)|
+|`-v`|volume mounting|
 
-`-e` 
-
-`-i` interactive
-
-`--mount` Attach a filesystem mount to the container
-
-`--name` assign a name to a container
-
-`-p` port mapping
-
-`-t` psuedo terminal (tty)
-
-`-v` volume mounting
 
 ### Examples
 | Example | Explanation |
-| :------- | ----------- |
+| ------- | ----------- |
 | `docker run ubuntu` | Attached mode. |
 | `docker run -d ubuntu` | Detached mode. |
 | `docker run --name=db postgres` | To name a container. |
