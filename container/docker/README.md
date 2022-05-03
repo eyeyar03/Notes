@@ -23,6 +23,11 @@
 `-v` volume mounting
 
 ### Examples
+| Example | Explanation |
+| ------- | ----------- |
+| `docker run ubuntu` | Attached mode. |
+
+
 `docker run ubuntu`
 > Attached mode.
 
