@@ -1,0 +1,12 @@
+# Docker
+
+## Docker run
+> Run a container from an image.
+
+`docker run <image-name>`
+
+### Examples
+`docker run ubuntu` (attached mode)
+`docker run -d ubuntu` (detached mode)
+
+`docker run ubuntu sleep 5` Ask docker to run a process (i.e. sleep) for 5 seconds
