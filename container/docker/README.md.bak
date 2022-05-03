@@ -156,11 +156,13 @@ docker run -d --name=vote -p 5001:80 --link redis:redis voting-app
 
 ## File System
 ```
-/var/lib/docker
-	-aufs
-	-containers
-	-image
-	-volumes
+/var
+  |-lib
+	|-docker
+		|-aufs
+		|-containers
+		|-image
+		|-volumes
 ```
 
 ## Volume
