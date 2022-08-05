@@ -1,5 +1,8 @@
 # Notes
 
+## Programming Principles
+- [Design Patterns](https://github.com/eyeyar03/Notes/tree/main/design-patterns#design-patterns)
+
 ## Container
 - [Docker](https://github.com/eyeyar03/Notes/tree/main/container/docker#docker)
 
