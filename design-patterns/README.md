@@ -41,3 +41,7 @@ vary the products you're creating.
 ### Abstract Factory Pattern
 
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### Singleton Pattern
+
+Ensures a class has only one instance, and provides a global point of access to it.
