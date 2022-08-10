@@ -10,6 +10,7 @@
 - Classes should be open for extension, but closed for modification. (Open-Closed Principle)
 - Depend upon abstractions. Do not depend upon concrete classes. High-level components should not depend on low-level
   components; rather, they should both depend on abstractions. (Dependency Inversion Principle)
+- Talk only to your immediate friends. (Principle of Least Knowledge) (Law of Demeter)
 
 ## Patterns
 
@@ -28,6 +29,8 @@ notified and updated automatically.
 
 Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing
 for extending functionality.
+
+Intent: Doesn't alter the interface, but adds responsibility. (Decorator vs Adapter vs Facade)
 
 ### Factory Method Pattern
 
@@ -55,3 +58,12 @@ log requests, and support undoable operations.
 
 Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that
 couldn't otherwise because of incompatible interfaces.
+
+Intent: Converts one interface to another. (Decorator vs Adapter vs Facade)
+
+### Facade
+
+Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes
+the subsystem easier to use.
+
+Intent: Makes an interface simpler. (Decorator vs Adapter vs Facade)
