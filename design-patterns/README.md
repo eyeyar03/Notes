@@ -49,4 +49,9 @@ Ensures a class has only one instance, and provides a global point of access to 
 ### Command Pattern
 
 Encapsulates a request as an object, thereby letting you parameterized other objects with different requests, queue or
-log requests, and support undoable operations. 
+log requests, and support undoable operations.
+
+### Adapter Pattern
+
+Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that
+couldn't otherwise because of incompatible interfaces.
