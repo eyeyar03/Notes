@@ -11,6 +11,7 @@
 - Depend upon abstractions. Do not depend upon concrete classes. High-level components should not depend on low-level
   components; rather, they should both depend on abstractions. (Dependency Inversion Principle)
 - Talk only to your immediate friends. (Principle of Least Knowledge) (Law of Demeter)
+- Don't call us, we'll call you. (Hollywood Principle)
 
 ## Patterns
 
@@ -67,3 +68,8 @@ Provides a unified interface to a set of interfaces in a subsystem. Facade defin
 the subsystem easier to use.
 
 Intent: Makes an interface simpler. (Decorator vs Adapter vs Facade)
+
+### Template Method Pattern
+
+Defines the skeleton on an algorithm in a method, deferring some steps to subclasses. Template Method lets sublcasses
+redefine certain steps of an algorithm without changing the algorithm's structure.
