@@ -12,6 +12,7 @@
   components; rather, they should both depend on abstractions. (Dependency Inversion Principle)
 - Talk only to your immediate friends. (Principle of Least Knowledge) (Law of Demeter)
 - Don't call us, we'll call you. (Hollywood Principle)
+- A class should have only one reason to change. (Single Responsibility Principle)
 
 ## Patterns
 
@@ -73,3 +74,11 @@ Intent: Makes an interface simpler. (Decorator vs Adapter vs Facade)
 
 Defines the skeleton on an algorithm in a method, deferring some steps to subclasses. Template Method lets sublcasses
 redefine certain steps of an algorithm without changing the algorithm's structure.
+
+### Iterator Pattern
+
+Provides a way to access the elements of an aggregate object sequentially without exposing its underlying
+representation.
+
+It also places the task of traversal on the iterator object, not on the aggregate, which simplifies the aggregate
+interface and implementation, and places the responsibility where it should be.
