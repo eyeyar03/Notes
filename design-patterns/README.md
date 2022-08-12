@@ -82,3 +82,16 @@ representation.
 
 It also places the task of traversal on the iterator object, not on the aggregate, which simplifies the aggregate
 interface and implementation, and places the responsibility where it should be.
+
+### Composite Pattern
+
+Allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat
+individual objects and composition of objects uniformly.
+
+The Composite Pattern allows us to build structures of objects in the form of trees that contain both composition of
+objects and individual objects as nodes.
+
+Using composite structure, we can apply the same operations over both composites and individual objects. In other words,
+in most cases we can ignore the differences between composition of objects and individual objects.
+
+In tree structure, elements with child elements are called nodes. And elements without children are called leaves.
