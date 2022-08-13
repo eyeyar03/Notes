@@ -22,6 +22,13 @@ Defines a family of algorithms, encapsulates each one, and make them interchange
 
 It lets the algorithm vary independently from clients that use it.
 
+The class diagram of Strategy and State Patterns are essentially the same, but the 2 differ in their intent. With
+Strategy, the client usually specifies the strategy object that the context is composed with. While the pattern provides
+flexibility to change strategy object at runtime, often there is a strategy object that is most appropriate for a
+context object. For instance, in our duck examples, some of our ducks were configured to fly with typical flying
+behavior (like mallard ducks), while others were configured with a fly behavior that kept them grounded (like rubber
+ducks). Strategy Pattern is a flexible alternative to subclassing. (Strategy vs State)
+
 ### Observer Pattern
 
 Defines a one-to-many dependency between objects so that when one object changes state, all of its dependencies are
@@ -95,3 +102,14 @@ Using composite structure, we can apply the same operations over both composites
 in most cases we can ignore the differences between composition of objects and individual objects.
 
 In tree structure, elements with child elements are called nodes. And elements without children are called leaves.
+
+### State Pattern
+
+Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+The class diagram of Strategy and State Patterns are essentially the same, but the 2 differ in their intent. In State
+Pattern, we have a set of behaviors encapsulated in state objects; at any time the context is delegating to one of those
+states. Over time, the current state changes across the set of state objects to reflect the internal state of the
+context, so the context's behavior changes over time as well. The client usually knows very little, if anything, about
+the state objects. State Pattern is an alternative to putting lots of conditionals in your context; by encapsulating the
+behaviors within state objects, you can simply change the state object in context to change its behavior. (Strategy vs State) 
