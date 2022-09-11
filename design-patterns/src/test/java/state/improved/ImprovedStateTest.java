@@ -196,4 +196,31 @@ public class ImprovedStateTest {
 
     System.out.println(improvedGumballMachine);
   }
+
+  @Test
+  public void test() {
+final String[] TODO_WHAT = new String[]{"suck his thumb", "tie his shoe", "climb a tree", "shut the door", "check the skies", "pick up sticks", "eat a lemon", "he is feeling great", "check the time", "say \"THE END!\""};
+StringBuilder lyricsBuilder = new StringBuilder();
+for (int i = 1; i < 11; i++) {
+for (int j = 0; j < 3; j++) {
+lyricsBuilder.append(String.format("The ants go marching %d by %d", i, i));
+if (j < 2) {
+lyricsBuilder.append("\nHurrah! hurrah!\n");
+} else {
+lyricsBuilder.append("\nThe little ones stops");
+}
+}
+if (i == 8 ){
+lyricsBuilder.append(", ");
+} else {
+lyricsBuilder.append(" to ");
+}
+lyricsBuilder.append(TODO_WHAT[i - 1]);
+lyricsBuilder.append("\nAnd they all go marching down to the ground");
+lyricsBuilder.append("\nTo get out of the rain");
+lyricsBuilder.append("\nBoom! Boom! Boom! Boom!");
+}
+
+System.out.println(lyricsBuilder);
+  }
 }

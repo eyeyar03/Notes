@@ -39,6 +39,8 @@ notified and updated automatically.
 Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing
 for extending functionality.
 
+Wraps another object and provides additional behavior to it. (Decorator vs Facade vs Proxy vs Adapter)
+
 Intent: Doesn't alter the interface, but adds responsibility. (Decorator vs Adapter vs Facade)
 
 ### Factory Method Pattern
@@ -68,12 +70,16 @@ log requests, and support undoable operations.
 Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that
 couldn't otherwise because of incompatible interfaces.
 
+Wraps another object and provides a different interface to it. (Decorator vs Facade vs Proxy vs Adapter)
+
 Intent: Converts one interface to another. (Decorator vs Adapter vs Facade)
 
 ### Facade
 
 Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes
 the subsystem easier to use.
+
+Wraps a bunch of objects to simplify their interface. (Decorator vs Facade vs Proxy vs Adapter)
 
 Intent: Makes an interface simpler. (Decorator vs Adapter vs Facade)
 
@@ -112,4 +118,31 @@ Pattern, we have a set of behaviors encapsulated in state objects; at any time t
 states. Over time, the current state changes across the set of state objects to reflect the internal state of the
 context, so the context's behavior changes over time as well. The client usually knows very little, if anything, about
 the state objects. State Pattern is an alternative to putting lots of conditionals in your context; by encapsulating the
-behaviors within state objects, you can simply change the state object in context to change its behavior. (Strategy vs State) 
+behaviors within state objects, you can simply change the state object in context to change its behavior. (Strategy vs
+State)
+
+### Proxy Pattern
+
+Provides a surrogate or placeholder for another object to control access to it.
+
+Wraps another object to control access to it. (Decorator vs Facade vs Proxy vs Adapter)
+
+Variations of Proxy Pattern (typically revolve around the way the proxy "controls access"):
+
+- Remote Proxy controls access to a remote object.
+- Virtual Proxy controls access to a resource that is expensive to create. Often defers the creation of the object until
+  it is needed; also acts as surrogate for the object before and while it is being created.
+- Protection Proxy controls access to a resource based on access rights.
+- Firewall Proxy controls access to a set of network resources, protecting the subject from "bad" clients. Often seen in
+  the location of corporate firewall systems.
+- Smart Reference Proxy provides additional actions whenever a subject is referenced, such as counting the number of
+  references to an object.
+- Caching Proxy provides temporary storage for results of operations that are expensive. It can also allow multiple
+  clients to share the results to reduce computation or network latency. Often seen in web server proxies as well as
+  content management and publishing systems.
+- Synchronization Proxy provides safe access to subject from multiple threads.
+- Complexity Hiding Proxy hides the complexity of and control access to a set of complex set of classes. This is
+  sometimes called Facade Proxy for obvious reasons. This proxy differs from the Facade Pattern in that the proxy
+  controls access, while the Facade Pattern just provides an alternative interface.
+- Copy-on-Write Proxy controls the copying of an object by deferring the copying of an object until it is required by a
+  client. This is a variant of Virtual Proxy. Seen in Java 5's CopyOnWriteArrayList.
