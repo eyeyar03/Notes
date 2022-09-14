@@ -146,3 +146,8 @@ Variations of Proxy Pattern (typically revolve around the way the proxy "control
   controls access, while the Facade Pattern just provides an alternative interface.
 - Copy-on-Write Proxy controls the copying of an object by deferring the copying of an object until it is required by a
   client. This is a variant of Virtual Proxy. Seen in Java 5's CopyOnWriteArrayList.
+
+### Compound Patterns
+
+A Compound Pattern combines two or more patterns into a solution that solves recurring or general problem (i.e. MVC is a
+combination of Strategy, Observer and Composite patterns.)
