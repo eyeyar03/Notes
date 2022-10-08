@@ -9,7 +9,8 @@
 -[Gherkin](https://github.com/eyeyar03/Notes/tree/main/tdd/bdd/gherkin)
 
 ## Persistence
-- [BigQuery]()
+
+- [BigQuery](https://github.com/eyeyar03/Notes/tree/main/database/bigquery)
 
 ## Container
 
