@@ -6,11 +6,11 @@
 
 ## Test Driven Development (TDD)
 
-- [Gherkin](https://github.com/eyeyar03/Notes/tree/main/tdd/bdd/gherkin)
+- [Gherkin](https://github.com/eyeyar03/Notes/tree/main/tdd/bdd/gherkin#gherkin)
 
 ## Persistence
 
-- [BigQuery](https://github.com/eyeyar03/Notes/tree/main/database/bigquery)
+- [BigQuery](https://github.com/eyeyar03/Notes/tree/main/database/bigquery#bigquery)
 
 ## Container
 
