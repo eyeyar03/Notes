@@ -2,6 +2,7 @@
 
 ## Concurrency
 - CompletableFuture - [CompletableFutureTest](https://github.com/eyeyar03/Notes/blob/main/java/snippets/src/test/java/com/amacandili/notes/java/snippets/concurrency/CompletableFutureTest.java)
+- ReentrantLock - [ReentrantLockTest](https://github.com/eyeyar03/Notes/blob/main/java/snippets/src/test/java/com/amacandili/notes/java/snippets/concurrency/ReentrantLockTest.java)
 
 ## Dates
 - Timestamp - [TimestampFunctionTest](https://github.com/eyeyar03/Notes/blob/main/java/snippets/src/test/java/com/amacandili/notes/java/snippets/date/TimestampFunctionTest.java)
