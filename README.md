@@ -2,7 +2,7 @@
 
 ## Java
 
-- [Code Snippets](https://github.com/eyeyar03/Notes/tree/main/java/snippets/java-code-snippets)
+- [Code Snippets](https://github.com/eyeyar03/Notes/tree/main/java/snippets#java-code-snippets)
 
 ## Programming Principles
 
