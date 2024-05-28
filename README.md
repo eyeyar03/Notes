@@ -1,5 +1,9 @@
 # Notes
 
+## Java
+
+- [Code Snippets](https://github.com/eyeyar03/Notes/tree/main/java/snippets/java-code-snippets)
+
 ## Programming Principles
 
 - [Design Patterns](https://github.com/eyeyar03/Notes/tree/main/design-patterns#design-patterns)
