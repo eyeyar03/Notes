@@ -1,1 +1,3 @@
-## Git Notes
+# Git Notes
+
+- Cleaner Git History
