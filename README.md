@@ -1,5 +1,8 @@
 # Notes
 
+## Git
+- [Git Notes](https://github.com/eyeyar03/Notes/blob/main/git/README.md#git-notes)
+
 ## Java
 
 - [Code Snippets](https://github.com/eyeyar03/Notes/tree/main/java/snippets#java-code-snippets)
