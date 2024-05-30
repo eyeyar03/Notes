@@ -1,11 +1,24 @@
 # Notes
 
+## Artificial Intelligence
+- [ChatGPT](https://github.com/eyeyar03/Notes/blob/main/artifical-intelligence/README.md#artifical-intelligence/chat-gpt/README.md#chatgpt)
+- [GitHub Copilot](https://github.com/eyeyar03/Notes/blob/main/artifical-intelligence/README.md#artifical-intelligence/github-copilot/README.md#github-copilot)
+
 ## Git
 - [Git Notes](https://github.com/eyeyar03/Notes/blob/main/git/README.md#git-notes)
+
+## Gradle
+ - [Gradle](https://github.com/eyeyar03/Notes/blob/main/gradle/README.md#gradle)
+   
+## IDE
+ - [IntelliJ](https://github.com/eyeyar03/Notes/blob/main/ide/intellij/README.md#intellij)
 
 ## Java
 
 - [Code Snippets](https://github.com/eyeyar03/Notes/tree/main/java/snippets#java-code-snippets)
+
+## JSON
+- [JSON Path](https://github.com/eyeyar03/Notes/blob/main/json/json-path/intellij/README.md#json-path)
 
 ## Programming Principles
 
