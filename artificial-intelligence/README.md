@@ -1,4 +1,4 @@
 # Artificial Intelligence
 
-- [ChatGPT](https://github.com/eyeyar03/Notes/blob/main/artifical-intelligence/README.md#artifical-intelligence/chat-gpt/README.md#chatgpt)
-- [GitHub Copilot](https://github.com/eyeyar03/Notes/blob/main/artifical-intelligence/README.md#artifical-intelligence/github-copilot/README.md#github-copilot)
+- [ChatGPT](https://github.com/eyeyar03/Notes/tree/main/artificial-intelligence/chat-gpt#chatgpt)
+- [GitHub Copilot](https://github.com/eyeyar03/Notes/tree/main/artificial-intelligence/github-copilot#github-copilot)

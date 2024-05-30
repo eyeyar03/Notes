@@ -1,3 +1,3 @@
 # IDE
 
-- [IntelliJ](https://github.com/eyeyar03/Notes/blob/main/ide/intellij/README.md#intellij)
+- [IntelliJ](https://github.com/eyeyar03/Notes/tree/main/ide/intellij#intellij)

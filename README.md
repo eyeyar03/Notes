@@ -1,24 +1,24 @@
 # Notes
 
 ## Artificial Intelligence
-- [ChatGPT](https://github.com/eyeyar03/Notes/blob/main/artifical-intelligence/README.md#artifical-intelligence/chat-gpt/README.md#chatgpt)
-- [GitHub Copilot](https://github.com/eyeyar03/Notes/blob/main/artifical-intelligence/README.md#artifical-intelligence/github-copilot/README.md#github-copilot)
+- [ChatGPT](https://github.com/eyeyar03/Notes/tree/main/artificial-intelligence/chat-gpt#chatgpt)
+- [GitHub Copilot](https://github.com/eyeyar03/Notes/tree/main/artificial-intelligence/github-copilot#github-copilot)
 
 ## Git
 - [Git Notes](https://github.com/eyeyar03/Notes/blob/main/git/README.md#git-notes)
 
 ## Gradle
- - [Gradle](https://github.com/eyeyar03/Notes/blob/main/gradle/README.md#gradle)
+ - [Gradle](https://github.com/eyeyar03/Notes/tree/main/gradle#gradle)
    
 ## IDE
- - [IntelliJ](https://github.com/eyeyar03/Notes/blob/main/ide/intellij/README.md#intellij)
+ - [IntelliJ](https://github.com/eyeyar03/Notes/tree/main/ide/intellij#intellij)
 
 ## Java
 
 - [Code Snippets](https://github.com/eyeyar03/Notes/tree/main/java/snippets#java-code-snippets)
 
 ## JSON
-- [JSON Path](https://github.com/eyeyar03/Notes/blob/main/json/json-path/intellij/README.md#json-path)
+- [JSON Path](https://github.com/eyeyar03/Notes/tree/main/json/json-path#json-path)
 
 ## Programming Principles
 
